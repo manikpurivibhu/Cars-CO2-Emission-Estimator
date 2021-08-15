@@ -114,6 +114,10 @@ Next, I conducted exploratory data analysis to get a feel for the data.
 I checked the dimensions of dataframe with the shape attribute of the dataframe. I viewed the top rows of the dataframe with the pandas head() method. I viewed the dataframe summary with the pandas info() method and descriptive statistics with the describe() method and hecked the correlation coefficient for numerical variables using the pandas corr() method. 
 Once I had an idea of the basic statistical sense of data, I plotted each individual parameter against ur target varible 'co2_emissions': Scatter Plot using the eaborn scatterplot() method for Numerical aparameters and Box Plot and Bar Graphs using the seaborn boxplot() and barplot() methods respectively.
 
+![](Images/Fuel%20Consumption%20(combined)%20vs%20CO2%20Emission.png)
+
+![](Images/Fuel%20Type.png)
+
 &nbsp; &nbsp; &nbsp; &nbsp;
 
 
@@ -203,7 +207,11 @@ Our model suggests less Residuals and hence a good fit to the data.
 
 Upon plotting a histogram using the seaborn hisplot() method on the Actual Values of dataset and values oredicted by the model, it appears that the model fits the data well, neither too shallow to be called "Underfit", nor too crisp such as to be considered "Overfit".
 
+![](Images/Predicted%20values%20vs%20Actual%20Values.png)
+
 This is confirmed on plotting a Scatterplot for both the variables.
+
+![](Images/Residual%20Analysis.png)
 
 &nbsp; &nbsp; &nbsp; &nbsp;
 
